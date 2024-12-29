@@ -21,7 +21,7 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## How It Works
 
 ### Data Loading
