@@ -4,7 +4,8 @@ This repository provides an example of using a Transformer-based architecture fo
 
 ## Contents
 
-- **`main.py`**: Main script for training and evaluating the Transformer model.
+- **`energy-prediction-transformer.py`**: Main script for training the Transformer model.
+- **`evaluate_metrics_only.py`**: Main script for evaluating the Transformer model.
 - **`AEP_hourly.csv`**: Hourly energy consumption data (date/time and MW values).
 - **`best_model.pt`**: Model checkpoint saved after training (created automatically).
 
