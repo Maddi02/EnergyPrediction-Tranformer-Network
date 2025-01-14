@@ -41,9 +41,6 @@ class LSTMForecast(nn.Module):
         return out
 
 
-# -------------------------------------------------------
-# Hilfsfunktionen
-# -------------------------------------------------------
 def load_aep_data(csv_path):
     if not os.path.isfile(csv_path):
         raise FileNotFoundError(f"Datei nicht gefunden: {csv_path}")
